@@ -6,41 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Cars</title>
   </head>
   <body>
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">
+        <a href="#" class="nav-logo">
           <i class="ri-steering-line"></i>
           M Competition
         </a>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
             </li>
-            <li class="nav__item">
-              <a href="#sobre" class="nav__link">About</a>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
             </li>
-            <li class="nav__item">
-              <a href="#popular" class="nav__link">Popular</a>
+            <li class="nav-item">
+              <a href="#popular" class="nav-link">Popular</a>
             </li>
-            <li class="nav__item">
-              <a href="#destacados" class="nav__link">Featured</a>
+            <li class="nav-item">
+              <a href="#featured" class="nav-link">Featured</a>
             </li>
           </ul>
 
-          <div class="nav__close" id="nav-close">
+          <div class="nav-close" id="nav-close">
             <i class="ri-close-line"></i>
           </div>
         </div>
 
         <!--Botón Toggle-->
-        <div class="nav__toggle" id="nav-toggle">
+        <div class="nav-toggle" id="nav-toggle">
           <i class="ri-menu-line"></i>
         </div>
       </nav>
@@ -48,74 +48,72 @@
 
     <main class="main">
       <section class="home section" id="home">
-        <!-----HOME----->
-        <div class="shape shape__big"></div>
-        <div class="shape shape__small"></div>
+        <!-----Home----->
 
-        <div class="home__container container grid">
-          <div class="home__data">
-            <h1 class="home__title">Choose the best car</h1>
+        <div class="home-container container grid">
+          <div class="home-data">
+            <h1 class="home-title">Choose the best car</h1>
 
-            <h2 class="home__subtitle">BMW M5 Competition</h2>
+            <h2 class="home-subtitle">BMW M5 Competition</h2>
 
-            <h3 class="home__gas"><i class="ri-drop-line"></i> Gasoline car</h3>
+            <h3 class="home-gas"><i class="ri-drop-line"></i> Gasoline car</h3>
           </div>
 
-          <img src="./IMG/home.png" alt="" class="home__img" />
+          <img src="./images/home.png" alt="" class="home-img" />
 
-          <div class="home__car">
-            <div class="home__car-data">
-              <div class="home__car-icon">
+          <div class="home-car">
+            <div class="home-car-data">
+              <div class="home-car-icon">
                 <i class="ri-dashboard-3-line"></i>
               </div>
-              <h2 class="home__car-number">3,3s</h2>
-              <h3 class="home__car-name">ACCELERATION</h3>
+              <h2 class="home-car-number">3,3s</h2>
+              <h3 class="home-car-name">ACCELERATION</h3>
             </div>
-            <!--.home__car-->
+            <!--.home-car-->
 
-            <div class="home__car-data">
-              <div class="home__car-icon">
+            <div class="home-car-data">
+              <div class="home-car-icon">
                 <i class="ri-funds-box-line"></i>
               </div>
-              <h2 class="home__car-number">250 Km/h</h2>
-              <h3 class="home__car-name">TOP SPEED</h3>
+              <h2 class="home-car-number">250 Km/h</h2>
+              <h3 class="home-car-name">TOP SPEED</h3>
             </div>
 
-            <div class="home__car-data">
-              <div class="home__car-icon">
+            <div class="home-car-data">
+              <div class="home-car-icon">
                 <i class="ri-gas-station-line"></i>
               </div>
-              <h2 class="home__car-number">68 L</h2>
-              <h3 class="home__car-name">CAPACITY</h3>
+              <h2 class="home-car-number">68 L</h2>
+              <h3 class="home-car-name">CAPACITY</h3>
             </div>
           </div>
 
-          <a href="#" class="home__button" id="startButton">START</a>
-          <audio id="sound" src="./SONIDO/sonido_motor.mp3"></audio>
-          <audio id="sound" src="./SONIDO/sonido_motor.ogv"></audio>
+          <a href="#" class="home-button" id="startButton">START</a>
+          <audio id="sound" src="./sound/engine_sound.mp3"></audio>
+          <audio id="sound" src="./sound/engine_sound.ogv"></audio>
         </div>
       </section>
       <!--.home .section-->
 
-      <section class="sobre section" id="sobre">
-        <!-----SOBRE----->
-        <div class="sobre__container container grid">
-          <div class="sobre__group">
-            <img src="./IMG/about.jpg" alt="" class="sobre__img" />
+      <section class="about section" id="about">
+        <!-----About----->
+        <div class="about-container container grid">
+          <div class="about-group">
+            <img src="./images/about.jpg" alt="" class="about-img" />
 
-            <div class="sobre__card">
-              <h3 class="sobre__card-title">+625HP</h3>
-              <p class="sobre__card-description">Accelerates from 0 to 100 hm/h in 3.3s</p>
+            <div class="about-card">
+              <h3 class="about-card-title">+625HP</h3>
+              <p class="about-card-description">Accelerates from 0 to 100 hm/h in 3.3s</p>
             </div>
           </div>
 
-          <div class="sobre__data">
-            <h2 class="section__title sobre__title">
+          <div class="about-data">
+            <h2 class="section-title about-title">
               The M5 Competition <br />
               Comes top
             </h2>
 
-            <p class="sobre__description">
+            <p class="about-description">
               With a power of 460 kW (625 HP) and a special configuration of the suspension, which also includes all the suspension systems relevant
               regulations, the BMW M5 Competition is ahead. Numerous characteristic BMW M details also underline this visually unequivocally.
             </p>
@@ -126,405 +124,403 @@
       </section>
 
       <section class="popular section" id="popular">
-        <!-----POPULAR----->
-        <h2 class="section__title">
+        <!-----Popular----->
+        <h2 class="section-title">
           Choose your car <br />
           From BMW brand
         </h2>
 
-        <div class="popular__container container swiper">
+        <div class="popular-container container swiper">
           <div class="swiper-wrapper">
-            <article class="popular__card swiper-slide">
-              <div class="shape shape__smaller"></div>
+            <article class="popular-card swiper-slide">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="popular__title">BMW</h1>
-              <h3 class="popular__subtitle">M5 Competition</h3>
+              <h1 class="popular-title">BMW</h1>
+              <h3 class="popular-subtitle">M5 Competition</h3>
 
-              <img src="./IMG/popular1.webp" alt="" class="popular__img" />
+              <img src="./images/popular1.webp" alt="" class="popular-img" />
 
-              <div class="popular__data">
-                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,3 Seconds</div>
-                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
-                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              <div class="popular-data">
+                <div class="popular-data-group"><i class="ri-dashboard-3-line"></i> 3,3 Seconds</div>
+                <div class="popular-data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular-data-group"><i class="ri-gas-station-line"></i> 68 L</div>
               </div>
-              <!--.popular__data-->
+              <!--.popular-data-->
 
-              <h3 class="popular__price">COP 799,900.000</h3>
+              <h3 class="popular-price">COP 799,900.000</h3>
 
-              <button class="button popular__button">
+              <button class="button popular-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.popular__card-->
+            <!--.popular-card-->
 
-            <article class="popular__card swiper-slide">
-              <div class="shape shape__smaller"></div>
+            <article class="popular-card swiper-slide">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="popular__title">BMW</h1>
-              <h3 class="popular__subtitle">M4 Competition</h3>
+              <h1 class="popular-title">BMW</h1>
+              <h3 class="popular-subtitle">M4 Competition</h3>
 
-              <img src="./IMG/popular2.png" alt="" class="popular__img" />
+              <img src="./images/popular2.png" alt="" class="popular-img" />
 
-              <div class="popular__data">
-                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,4 Seconds</div>
-                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
-                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 59 L</div>
+              <div class="popular-data">
+                <div class="popular-data-group"><i class="ri-dashboard-3-line"></i> 3,4 Seconds</div>
+                <div class="popular-data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular-data-group"><i class="ri-gas-station-line"></i> 59 L</div>
               </div>
-              <!--.popular__data-->
+              <!--.popular-data-->
 
-              <h3 class="popular__price">COP 699,900.000</h3>
+              <h3 class="popular-price">COP 699,900.000</h3>
 
-              <button class="button popular__button">
+              <button class="button popular-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.popular__card-->
+            <!--.popular-card-->
 
-            <article class="popular__card swiper-slide">
-              <div class="shape shape__smaller"></div>
+            <article class="popular-card swiper-slide">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="popular__title">BMW</h1>
-              <h3 class="popular__subtitle">M340i</h3>
+              <h1 class="popular-title">BMW</h1>
+              <h3 class="popular-subtitle">M340i</h3>
 
-              <img src="./IMG/popular3.webp" alt="" class="popular__img" />
+              <img src="./images/popular3.webp" alt="" class="popular-img" />
 
-              <div class="popular__data">
-                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 4,4 Seconds</div>
-                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
-                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 59 L</div>
+              <div class="popular-data">
+                <div class="popular-data-group"><i class="ri-dashboard-3-line"></i> 4,4 Seconds</div>
+                <div class="popular-data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular-data-group"><i class="ri-gas-station-line"></i> 59 L</div>
               </div>
-              <!--.popular__data-->
+              <!--.popular-data-->
 
-              <h3 class="popular__price">COP 224,900.00</h3>
+              <h3 class="popular-price">COP 224,900.00</h3>
 
-              <button class="button popular__button">
+              <button class="button popular-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.popular__card-->
+            <!--.popular-card-->
 
-            <article class="popular__card swiper-slide">
-              <div class="shape shape__smaller"></div>
+            <article class="popular-card swiper-slide">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="popular__title">BMW</h1>
-              <h3 class="popular__subtitle">M550i</h3>
+              <h1 class="popular-title">BMW</h1>
+              <h3 class="popular-subtitle">M550i</h3>
 
-              <img src="./IMG/popular4.webp" alt="" class="popular__img" />
+              <img src="./images/popular4.webp" alt="" class="popular-img" />
 
-              <div class="popular__data">
-                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,8 Seconds</div>
-                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
-                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              <div class="popular-data">
+                <div class="popular-data-group"><i class="ri-dashboard-3-line"></i> 3,8 Seconds</div>
+                <div class="popular-data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular-data-group"><i class="ri-gas-station-line"></i> 68 L</div>
               </div>
-              <!--.popular__data-->
+              <!--.popular-data-->
 
-              <h3 class="popular__price">COP 499,900.000</h3>
+              <h3 class="popular-price">COP 499,900.000</h3>
 
-              <button class="button popular__button">
+              <button class="button popular-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.popular__card-->
+            <!--.popular-card-->
 
-            <article class="popular__card swiper-slide">
-              <div class="shape shape__smaller"></div>
+            <article class="popular-card swiper-slide">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="popular__title">BMW</h1>
-              <h3 class="popular__subtitle">M8 Competition</h3>
+              <h1 class="popular-title">BMW</h1>
+              <h3 class="popular-subtitle">M8 Competition</h3>
 
-              <img src="./IMG/popular5.png" alt="" class="popular__img" />
+              <img src="./images/popular5.png" alt="" class="popular-img" />
 
-              <div class="popular__data">
-                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,2 Seconds</div>
-                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
-                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              <div class="popular-data">
+                <div class="popular-data-group"><i class="ri-dashboard-3-line"></i> 3,2 Seconds</div>
+                <div class="popular-data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular-data-group"><i class="ri-gas-station-line"></i> 68 L</div>
               </div>
-              <!--.popular__data-->
+              <!--.popular-data-->
 
-              <h3 class="popular__price">COP 779,900.000</h3>
+              <h3 class="popular-price">COP 779,900.000</h3>
 
-              <button class="button popular__button">
+              <button class="button popular-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.popular__card-->
+            <!--.popular-card-->
           </div>
 
           <div class="swiper-pagination"></div>
         </div>
       </section>
 
-      <section class="caracteristicas section">
-        <!-----CARACTERISTICAS----->
-        <h2 class="section__title">More Features</h2>
+      <section class="characteristics section">
+        <!-----Characteristics----->
+        <h2 class="section-title">More Features</h2>
 
-        <div class="caracteristicas__container container grid">
-          <div class="caracteristicas__group">
-            <img src="./IMG/features.jpg" alt="" class="caracteristicas__img" />
+        <div class="characteristics-container container grid">
+          <div class="characteristics-group">
+            <img src="./images/features.jpg" alt="" class="characteristics-img" />
 
-            <div class="caracteristicas__card caracteristicas__card-1">
-              <h3 class="caracteristicas__card-title">680 Km</h3>
-              <p class="caracteristicas__card-description">Range</p>
+            <div class="characteristics-card characteristics-card-1">
+              <h3 class="characteristics-card-title">680 Km</h3>
+              <p class="characteristics-card-description">Range</p>
             </div>
 
-            <div class="caracteristicas__card caracteristicas__card-2">
-              <h3 class="caracteristicas__card-title">750 Nm</h3>
-              <p class="caracteristicas__card-description">Torque foot</p>
+            <div class="characteristics-card characteristics-card-2">
+              <h3 class="characteristics-card-title">750 Nm</h3>
+              <p class="characteristics-card-description">Torque foot</p>
             </div>
           </div>
-          <!--.caracteristicas__group-->
+          <!--.characteristics-group-->
         </div>
-        <!--.caracteristicas__container-->
+        <!--.characteristics-container-->
 
-        <img src="" alt="" class="caracteristicas__map" />
+        <img src="" alt="" class="characteristics-map" />
       </section>
 
-      <section class="featured section" id="destacados">
-        <!-----DESTACADOS----->
-        <h2 class="section__title">Featured Luxury Cars</h2>
+      <section class="featured section" id="featured">
+        <!-----Featured----->
+        <h2 class="section-title">Featured Luxury Cars</h2>
 
-        <div class="featured__container container">
-          <ul class="featured__filters">
+        <div class="featured-container container">
+          <ul class="featured-filters">
             <li>
-              <button class="featured__item activate-featured" data-filter="all">
+              <button class="featured-item activate-featured" data-filter="all">
                 <span>All</span>
               </button>
             </li>
             <li>
-              <button class="featured__item" data-filter=".tesla">
-                <img src="./IMG/logo3.png" alt="" />
+              <button class="featured-item" data-filter=".tesla">
+                <img src="./images/logo3.png" alt="" />
               </button>
             </li>
             <li>
-              <button class="featured__item" data-filter=".audi">
-                <img src="./IMG/logo2.png" alt="" />
+              <button class="featured-item" data-filter=".audi">
+                <img src="./images/logo2.png" alt="" />
               </button>
             </li>
             <li>
-              <button class="featured__item" data-filter=".porsche">
-                <img src="./IMG/logo1.png" alt="" />
+              <button class="featured-item" data-filter=".porsche">
+                <img src="./images/logo1.png" alt="" />
               </button>
             </li>
           </ul>
 
-          <div class="featured__content grid">
-            <article class="featured__card mix tesla">
-              <div class="shape shape__smaller"></div>
+          <div class="featured-content grid">
+            <article class="featured-card mix tesla">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="featured__title">Tesla</h1>
+              <h1 class="featured-title">Tesla</h1>
 
-              <h3 class="featured__subtitle">Model S</h3>
+              <h3 class="featured-subtitle">Model S</h3>
 
-              <img src="./IMG/models.png" alt="" class="featured__img" />
+              <img src="./images/models.png" alt="" class="featured-img" />
 
-              <h3 class="featured__price">COP 649,900.000</h3>
+              <h3 class="featured-price">COP 649,900.000</h3>
 
-              <button class="button featured__button">
+              <button class="button featured-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.featured__card-->
+            <!--.featured-card-->
 
-            <article class="featured__card mix tesla">
-              <div class="shape shape__smaller"></div>
+            <article class="featured-card mix tesla">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="featured__title">Tesla</h1>
+              <h1 class="featured-title">Tesla</h1>
 
-              <h3 class="featured__subtitle">Model 3</h3>
+              <h3 class="featured-subtitle">Model 3</h3>
 
-              <img src="./IMG/model3.png" alt="" class="featured__img" />
+              <img src="./images/model3.png" alt="" class="featured-img" />
 
-              <h3 class="featured__price">COP 399,900.000</h3>
+              <h3 class="featured-price">COP 399,900.000</h3>
 
-              <button class="button featured__button">
+              <button class="button featured-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.featured__card-->
+            <!--.featured-card-->
 
-            <article class="featured__card mix audi">
-              <div class="shape shape__smaller"></div>
+            <article class="featured-card mix audi">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="featured__title">Audi</h1>
+              <h1 class="featured-title">Audi</h1>
 
-              <h3 class="featured__subtitle">E-Tron</h3>
+              <h3 class="featured-subtitle">E-Tron</h3>
 
-              <img src="./IMG/e-tron.png" alt="" class="featured__img" />
+              <img src="./images/e-tron.png" alt="" class="featured-img" />
 
-              <h3 class="featured__price">COP 379,900.000</h3>
+              <h3 class="featured-price">COP 379,900.000</h3>
 
-              <button class="button featured__button">
+              <button class="button featured-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.featured__card-->
+            <!--.featured-card-->
 
-            <article class="featured__card mix porsche">
-              <div class="shape shape__smaller"></div>
+            <article class="featured-card mix porsche">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="featured__title">Porsche</h1>
+              <h1 class="featured-title">Porsche</h1>
 
-              <h3 class="featured__subtitle">Taycan Turbo S</h3>
+              <h3 class="featured-subtitle">Taycan Turbo S</h3>
 
-              <img src="./IMG/taycan.png" alt="" class="featured__img" />
+              <img src="./images/taycan.png" alt="" class="featured-img" />
 
-              <h3 class="featured__price">COP 1,100,000.000</h3>
+              <h3 class="featured-price">COP 1,100,000.000</h3>
 
-              <button class="button featured__button">
+              <button class="button featured-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.featured__card-->
+            <!--.featured-card-->
 
-            <article class="featured__card mix porsche">
-              <div class="shape shape__smaller"></div>
+            <article class="featured-card mix porsche">
+              <div class="shape shape-smaller"></div>
 
-              <h1 class="featured__title">Porsche</h1>
+              <h1 class="featured-title">Porsche</h1>
 
-              <h3 class="featured__subtitle">Panamera</h3>
+              <h3 class="featured-subtitle">Panamera</h3>
 
-              <img src="./IMG/panamera.png" alt="" class="featured__img" />
+              <img src="./images/panamera.png" alt="" class="featured-img" />
 
-              <h3 class="featured__price">COP 949,900.000</h3>
+              <h3 class="featured-price">COP 949,900.000</h3>
 
-              <button class="button featured__button">
+              <button class="button featured-button">
                 <i class="ri-store-2-line"></i>
               </button>
             </article>
-            <!--.featured__card-->
+            <!--.featured-card-->
           </div>
         </div>
       </section>
 
-      <section class="oferta section">
-        <!-----OFERTA----->
-        <div class="oferta__container container grid">
-          <img src="./IMG/oferta-bg.png" alt="" class="oferta__bg" />
-
-          <div class="oferta__data">
-            <h2 class="section__title oferta__title">
+      <section class="ofert section">
+        <!-----Ofert----->
+        <div class="ofert-container container grid">
+          <div class="ofert-data">
+            <h2 class="section-title ofert-title">
               Do you want to receive <br />
               A special offer?
             </h2>
 
-            <p class="oferta__description">
+            <p class="ofert-description">
               Be the first to receive all the information about our products and new cars by email by subscribing to our list of mail.
             </p>
 
             <a href="#" class="button2"> Subscribe Now </a>
           </div>
 
-          <img src="./IMG/oferta.png" alt="" class="oferta__img" />
+          <img src="./images/ofert.png" alt="" class="ofert-img" />
         </div>
       </section>
 
       <section class="logos section">
-        <!-----LOGOS----->
-        <div class="logos__container container grid">
-          <div class="logos__content">
-            <img src="./IMG/logo1.png" alt="" class="logos__img" />
+        <!-----Logos----->
+        <div class="logos-container container grid">
+          <div class="logos-content">
+            <img src="./images/logo1.png" alt="Logo 1" class="logos-img" />
           </div>
-          <div class="logos__content">
-            <img src="./IMG/logo2.png" alt="" class="logos__img" />
+          <div class="logos-content">
+            <img src="./images/logo2.png" alt="Logo 2" class="logos-img" />
           </div>
-          <div class="logos__content">
-            <img src="./IMG/logo3.png" alt="" class="logos__img" />
+          <div class="logos-content">
+            <img src="./images/logo3.png" alt="Logo 3" class="logos-img" />
           </div>
-          <div class="logos__content">
-            <img src="./IMG/logo4.png" alt="" class="logos__img" />
+          <div class="logos-content">
+            <img src="./images/logo4.png" alt="Logo 4" class="logos-img" />
           </div>
-          <div class="logos__content">
-            <img src="./IMG/logo5.png" alt="" class="logos__img" />
+          <div class="logos-content">
+            <img src="./images/logo5.png" alt="Logo 5" class="logos-img" />
           </div>
-          <div class="logos__content">
-            <img src="./IMG/logo6.png" alt="" class="logos__img" />
+          <div class="logos-content">
+            <img src="./images/logo6.png" alt="Logo 6" class="logos-img" />
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer section">
-      <div class="shape shape__big"></div>
-      <div class="shape shape__small"></div>
+      <div class="shape shape-big"></div>
+      <div class="shape shape-small"></div>
 
-      <div class="footer__container container grid">
-        <div class="footer__content">
-          <a href="#" class="footer__logo"> <i class="ri-steering-line"></i> M Competition </a>
-          <p class="footer__description">
+      <div class="footer-container container grid">
+        <div class="footer-content">
+          <a href="#" class="footer-logo"> <i class="ri-steering-line"></i> M Competition </a>
+          <p class="footer-description">
             We offer the best sports cars <br />
             the most recognized brands <br />
             of the world.
           </p>
         </div>
 
-        <div class="footer__content">
-          <h3 class="footer__title">Company</h3>
+        <div class="footer-content">
+          <h3 class="footer-title">Company</h3>
 
-          <ul class="footer__links">
+          <ul class="footer-links">
             <li>
-              <a href="#" class="footer__link">About</a>
+              <a href="#" class="footer-link">About</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Cars</a>
+              <a href="#" class="footer-link">Cars</a>
             </li>
             <li>
-              <a href="#" class="footer__link">History</a>
+              <a href="#" class="footer-link">History</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Store</a>
+              <a href="#" class="footer-link">Store</a>
             </li>
           </ul>
         </div>
-        <!--.footer__content-->
+        <!--.footer-content-->
 
-        <div class="footer__content">
-          <h3 class="footer__title">Information</h3>
+        <div class="footer-content">
+          <h3 class="footer-title">Information</h3>
 
-          <ul class="footer__links">
+          <ul class="footer-links">
             <li>
-              <a href="#" class="footer__link">Request Quote</a>
+              <a href="#" class="footer-link">Request Quote</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Find Distributor</a>
+              <a href="#" class="footer-link">Find Distributor</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Contact us</a>
+              <a href="#" class="footer-link">Contact us</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Services</a>
+              <a href="#" class="footer-link">Services</a>
             </li>
           </ul>
         </div>
-        <!--.footer__content-->
+        <!--.footer-content-->
 
-        <div class="footer__content">
-          <h3 class="footer__title">Follow us</h3>
+        <div class="footer-content">
+          <h3 class="footer-title">Follow us</h3>
 
-          <ul class="footer__social">
-            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+          <ul class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
               <i class="ri-facebook-fill"></i>
             </a>
-            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
               <i class="ri-instagram-fill"></i>
             </a>
-            <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+            <a href="https://www.twitter.com/" target="_blank" class="footer-social-link">
               <i class="ri-twitter-fill"></i>
             </a>
           </ul>
         </div>
-        <!--.footer__content-->
+        <!--.footer-content-->
       </div>
 
-      <span class="footer__copy"> &#169; Carlos Acosta. All rights reserved </span>
+      <span class="footer-copy"> &#169; <a href="https://github.com/Carlosaac23">Carlos Acosta.</a> All rights reserved </span>
     </footer>
 
     <!--Scrol Up-->
-    <a href="" class="scrollup" id="scroll-up">
+    <a href="#" class="scrollup" id="scroll-up">
       <i class="ri-arrow-up-line"></i>
     </a>
 
     <script src="./js/scrollreveal.min.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/mixitup.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
