@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cars</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-steering-line"></i>
+          M Competition
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#sobre" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Popular</a>
+            </li>
+            <li class="nav__item">
+              <a href="#destacados" class="nav__link">Featured</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!--Botón Toggle-->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <!-----HOME----->
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Choose the best car</h1>
+
+            <h2 class="home__subtitle">BMW M5 Competition</h2>
+
+            <h3 class="home__gas"><i class="ri-drop-line"></i> Gasoline car</h3>
+          </div>
+
+          <img src="./IMG/home.png" alt="" class="home__img" />
+
+          <div class="home__car">
+            <div class="home__car-data">
+              <div class="home__car-icon">
+                <i class="ri-dashboard-3-line"></i>
+              </div>
+              <h2 class="home__car-number">3,3s</h2>
+              <h3 class="home__car-name">ACCELERATION</h3>
+            </div>
+            <!--.home__car-->
+
+            <div class="home__car-data">
+              <div class="home__car-icon">
+                <i class="ri-funds-box-line"></i>
+              </div>
+              <h2 class="home__car-number">250 Km/h</h2>
+              <h3 class="home__car-name">TOP SPEED</h3>
+            </div>
+
+            <div class="home__car-data">
+              <div class="home__car-icon">
+                <i class="ri-gas-station-line"></i>
+              </div>
+              <h2 class="home__car-number">68 L</h2>
+              <h3 class="home__car-name">CAPACITY</h3>
+            </div>
+          </div>
+
+          <a href="#" class="home__button" id="startButton">START</a>
+          <audio id="sound" src="./SONIDO/sonido_motor.mp3"></audio>
+          <audio id="sound" src="./SONIDO/sonido_motor.ogv"></audio>
+        </div>
+      </section>
+      <!--.home .section-->
+
+      <section class="sobre section" id="sobre">
+        <!-----SOBRE----->
+        <div class="sobre__container container grid">
+          <div class="sobre__group">
+            <img src="./IMG/about.jpg" alt="" class="sobre__img" />
+
+            <div class="sobre__card">
+              <h3 class="sobre__card-title">+625HP</h3>
+              <p class="sobre__card-description">Accelerates from 0 to 100 hm/h in 3.3s</p>
+            </div>
+          </div>
+
+          <div class="sobre__data">
+            <h2 class="section__title sobre__title">
+              The M5 Competition <br />
+              Comes top
+            </h2>
+
+            <p class="sobre__description">
+              With a power of 460 kW (625 HP) and a special configuration of the suspension, which also includes all the suspension systems relevant
+              regulations, the BMW M5 Competition is ahead. Numerous characteristic BMW M details also underline this visually unequivocally.
+            </p>
+
+            <a href="#" class="button">More information</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular section" id="popular">
+        <!-----POPULAR----->
+        <h2 class="section__title">
+          Choose your car <br />
+          From BMW brand
+        </h2>
+
+        <div class="popular__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="popular__title">BMW</h1>
+              <h3 class="popular__subtitle">M5 Competition</h3>
+
+              <img src="./IMG/popular1.webp" alt="" class="popular__img" />
+
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,3 Seconds</div>
+                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              </div>
+              <!--.popular__data-->
+
+              <h3 class="popular__price">COP 799,900.000</h3>
+
+              <button class="button popular__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.popular__card-->
+
+            <article class="popular__card swiper-slide">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="popular__title">BMW</h1>
+              <h3 class="popular__subtitle">M4 Competition</h3>
+
+              <img src="./IMG/popular2.png" alt="" class="popular__img" />
+
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,4 Seconds</div>
+                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 59 L</div>
+              </div>
+              <!--.popular__data-->
+
+              <h3 class="popular__price">COP 699,900.000</h3>
+
+              <button class="button popular__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.popular__card-->
+
+            <article class="popular__card swiper-slide">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="popular__title">BMW</h1>
+              <h3 class="popular__subtitle">M340i</h3>
+
+              <img src="./IMG/popular3.webp" alt="" class="popular__img" />
+
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 4,4 Seconds</div>
+                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 59 L</div>
+              </div>
+              <!--.popular__data-->
+
+              <h3 class="popular__price">COP 224,900.00</h3>
+
+              <button class="button popular__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.popular__card-->
+
+            <article class="popular__card swiper-slide">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="popular__title">BMW</h1>
+              <h3 class="popular__subtitle">M550i</h3>
+
+              <img src="./IMG/popular4.webp" alt="" class="popular__img" />
+
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,8 Seconds</div>
+                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              </div>
+              <!--.popular__data-->
+
+              <h3 class="popular__price">COP 499,900.000</h3>
+
+              <button class="button popular__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.popular__card-->
+
+            <article class="popular__card swiper-slide">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="popular__title">BMW</h1>
+              <h3 class="popular__subtitle">M8 Competition</h3>
+
+              <img src="./IMG/popular5.png" alt="" class="popular__img" />
+
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-dashboard-3-line"></i> 3,2 Seconds</div>
+                <div class="popular__data-group"><i class="ri-funds-box-line"></i> 250 Km/h</div>
+                <div class="popular__data-group"><i class="ri-gas-station-line"></i> 68 L</div>
+              </div>
+              <!--.popular__data-->
+
+              <h3 class="popular__price">COP 779,900.000</h3>
+
+              <button class="button popular__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.popular__card-->
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="caracteristicas section">
+        <!-----CARACTERISTICAS----->
+        <h2 class="section__title">More Features</h2>
+
+        <div class="caracteristicas__container container grid">
+          <div class="caracteristicas__group">
+            <img src="./IMG/features.jpg" alt="" class="caracteristicas__img" />
+
+            <div class="caracteristicas__card caracteristicas__card-1">
+              <h3 class="caracteristicas__card-title">680 Km</h3>
+              <p class="caracteristicas__card-description">Range</p>
+            </div>
+
+            <div class="caracteristicas__card caracteristicas__card-2">
+              <h3 class="caracteristicas__card-title">750 Nm</h3>
+              <p class="caracteristicas__card-description">Torque foot</p>
+            </div>
+          </div>
+          <!--.caracteristicas__group-->
+        </div>
+        <!--.caracteristicas__container-->
+
+        <img src="" alt="" class="caracteristicas__map" />
+      </section>
+
+      <section class="featured section" id="destacados">
+        <!-----DESTACADOS----->
+        <h2 class="section__title">Featured Luxury Cars</h2>
+
+        <div class="featured__container container">
+          <ul class="featured__filters">
+            <li>
+              <button class="featured__item activate-featured" data-filter="all">
+                <span>All</span>
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".tesla">
+                <img src="./IMG/logo3.png" alt="" />
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".audi">
+                <img src="./IMG/logo2.png" alt="" />
+              </button>
+            </li>
+            <li>
+              <button class="featured__item" data-filter=".porsche">
+                <img src="./IMG/logo1.png" alt="" />
+              </button>
+            </li>
+          </ul>
+
+          <div class="featured__content grid">
+            <article class="featured__card mix tesla">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Tesla</h1>
+
+              <h3 class="featured__subtitle">Model S</h3>
+
+              <img src="./IMG/models.png" alt="" class="featured__img" />
+
+              <h3 class="featured__price">COP 649,900.000</h3>
+
+              <button class="button featured__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.featured__card-->
+
+            <article class="featured__card mix tesla">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Tesla</h1>
+
+              <h3 class="featured__subtitle">Model 3</h3>
+
+              <img src="./IMG/model3.png" alt="" class="featured__img" />
+
+              <h3 class="featured__price">COP 399,900.000</h3>
+
+              <button class="button featured__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.featured__card-->
+
+            <article class="featured__card mix audi">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Audi</h1>
+
+              <h3 class="featured__subtitle">E-Tron</h3>
+
+              <img src="./IMG/e-tron.png" alt="" class="featured__img" />
+
+              <h3 class="featured__price">COP 379,900.000</h3>
+
+              <button class="button featured__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.featured__card-->
+
+            <article class="featured__card mix porsche">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Porsche</h1>
+
+              <h3 class="featured__subtitle">Taycan Turbo S</h3>
+
+              <img src="./IMG/taycan.png" alt="" class="featured__img" />
+
+              <h3 class="featured__price">COP 1,100,000.000</h3>
+
+              <button class="button featured__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.featured__card-->
+
+            <article class="featured__card mix porsche">
+              <div class="shape shape__smaller"></div>
+
+              <h1 class="featured__title">Porsche</h1>
+
+              <h3 class="featured__subtitle">Panamera</h3>
+
+              <img src="./IMG/panamera.png" alt="" class="featured__img" />
+
+              <h3 class="featured__price">COP 949,900.000</h3>
+
+              <button class="button featured__button">
+                <i class="ri-store-2-line"></i>
+              </button>
+            </article>
+            <!--.featured__card-->
+          </div>
+        </div>
+      </section>
+
+      <section class="oferta section">
+        <!-----OFERTA----->
+        <div class="oferta__container container grid">
+          <img src="./IMG/oferta-bg.png" alt="" class="oferta__bg" />
+
+          <div class="oferta__data">
+            <h2 class="section__title oferta__title">
+              Do you want to receive <br />
+              A special offer?
+            </h2>
+
+            <p class="oferta__description">
+              Be the first to receive all the information about our products and new cars by email by subscribing to our list of mail.
+            </p>
+
+            <a href="#" class="button2"> Subscribe Now </a>
+          </div>
+
+          <img src="./IMG/oferta.png" alt="" class="oferta__img" />
+        </div>
+      </section>
+
+      <section class="logos section">
+        <!-----LOGOS----->
+        <div class="logos__container container grid">
+          <div class="logos__content">
+            <img src="./IMG/logo1.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="./IMG/logo2.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="./IMG/logo3.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="./IMG/logo4.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="./IMG/logo5.png" alt="" class="logos__img" />
+          </div>
+          <div class="logos__content">
+            <img src="./IMG/logo6.png" alt="" class="logos__img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="shape shape__big"></div>
+      <div class="shape shape__small"></div>
+
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo"> <i class="ri-steering-line"></i> M Competition </a>
+          <p class="footer__description">
+            We offer the best sports cars <br />
+            the most recognized brands <br />
+            of the world.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Company</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Cars</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">History</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Store</a>
+            </li>
+          </ul>
+        </div>
+        <!--.footer__content-->
+
+        <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Request Quote</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Find Distributor</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contact us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Services</a>
+            </li>
+          </ul>
+        </div>
+        <!--.footer__content-->
+
+        <div class="footer__content">
+          <h3 class="footer__title">Follow us</h3>
+
+          <ul class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </ul>
+        </div>
+        <!--.footer__content-->
+      </div>
+
+      <span class="footer__copy"> &#169; Carlos Acosta. All rights reserved </span>
+    </footer>
+
+    <!--Scrol Up-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="./js/scrollreveal.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
