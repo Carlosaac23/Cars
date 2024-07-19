@@ -180,7 +180,7 @@ img {
 }
 
 .nav-link {
-  font-family: 'GeistMono-SemiBold';
+  font-family: 'GeistMono-SemiBold', sans-serif;
   text-transform: uppercase;
   color: var(--titleColor);
   font-size: var(--h2-font-size);
