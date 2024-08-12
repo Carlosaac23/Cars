@@ -111,23 +111,3 @@ const scrollActive = () => {
 };
 
 window.addEventListener('scroll', scrollActive);
-
-// Scroll Reveal Animation
-const sr = ScrollReveal({
-  origin: 'top',
-  distance: '60px',
-  duration: 2500,
-  delay: 400,
-  reset: true,
-});
-
-sr.reveal(`.home-title`);
-sr.reveal(`.home-subtitle`, { delay: 500 });
-sr.reveal(`.home-gas`, { delay: 600 });
-sr.reveal(`.home-img`, { delay: 800 });
-sr.reveal(`.home-car-data`, { delay: 900, interval: 100, origin: 'bottom' });
-sr.reveal(`.home-button`, { delay: 1000, origin: 'bottom' });
-sr.reveal(`.about-group, .ofert-data`, { origin: 'left' });
-sr.reveal(`.about-data, .ofert-img`, { origin: 'rigth' });
-sr.reveal(`.characteristics-card`, { interval: 300 });
-sr.reveal(`.featured-card, .logos-content, .footer-content`, { interval: 100 });

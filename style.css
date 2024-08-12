@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'GeistMono-Thin';
-  src: url('../fonts/GeistMono-Thin.ttf');
+  font-family: 'Geist-Light';
+  src: url('/fonts/Geist-Light.ttf');
 }
 
 @font-face {
-  font-family: 'GeistMono-Regular';
-  src: url('../fonts/GeistMono-Regular.ttf');
+  font-family: 'Geist-Regular';
+  src: url('/fonts/Geist-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'GeistMono-SemiBold';
-  src: url('../fonts/GeistMono-SemiBold.ttf');
+  font-family: 'Geist-Bold';
+  src: url('/fonts/Geist-Bold.ttf');
 }
 
 :root {
@@ -24,7 +24,7 @@
   --bodyColorAlt: #18181b;
   --borderColor: #1f1f1f;
 
-  --body-font: 'GeistMono-Regular', sans-serif;
+  --body-font: Geist-Regular, sans-serif;
   --h1-font--size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -71,7 +71,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   color: var(--primaryColor);
   font-weight: var(--font-semi-bold);
 }
@@ -138,7 +138,7 @@ img {
 }
 
 .nav-logo {
-  font-family: 'GeistMono-SemiBold';
+  font-family: Geist-Bold, sans-serif;
   align-items: center;
   column-gap: 0.25rem;
   font-weight: var(--font-medium);
@@ -180,7 +180,7 @@ img {
 }
 
 .nav-link {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   text-transform: uppercase;
   color: var(--titleColor);
   font-size: var(--h2-font-size);
@@ -254,7 +254,7 @@ img {
 }
 
 .home-gas i {
-  font-family: 'GeistMono-Thin', sans-serif;
+  font-family: Geist-Light, sans-serif;
   color: var(--primaryColorAlt);
 }
 
@@ -272,7 +272,7 @@ img {
 }
 
 .home-car-name {
-  font-family: 'GeistMono-Thin', sans-serif;
+  font-family: Geist-Light, sans-serif;
   font-size: 0.625rem;
   font-weight: 400;
   color: var(--text-color-light);
@@ -301,7 +301,7 @@ img {
 }
 
 .home-button {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   background: var(--bodyColor);
   position: relative;
   border: 1.5px solid var(--borderColor);
@@ -315,16 +315,17 @@ img {
   font-size: var(--small-font-size);
   color: var(--whiteColor);
   font-weight: var(--font-medium);
-  transition: background-color 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .home-button:hover {
-  background-color: var(--bodyColorAlt);
+  border-color: #454545;
+  box-shadow: 0 0 15px #454545;
 }
 
 /* About Button */
 .button {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   display: inline-block;
   background-color: var(--bodyColor);
   color: var(--whiteColor);
@@ -332,15 +333,15 @@ img {
   border: 1.5px solid var(--borderColor);
   border-radius: 0.4rem;
   font-size: var(--normal-font-size);
-  transition: 0.4s;
+  transition: border-color 0.4s ease;
 }
 
 .button:hover {
-  background-color: var(--bodyColorAlt);
+  border-color: #454545;
 }
 
 .button2 {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   display: inline-block;
   background-color: var(--bodyColor);
   color: var(--whiteColor);
@@ -348,11 +349,11 @@ img {
   border: 1.5px solid var(--borderColor);
   border-radius: 0.4rem;
   font-size: var(--normal-font-size);
-  transition: 0.4s;
+  transition: border-color 0.4s ease;
 }
 
 .button2:hover {
-  background-color: var(--bodyColorAlt);
+  border-color: #454545;
 }
 
 /* About */
@@ -382,24 +383,24 @@ img {
 }
 
 .about-card-title {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   font-size: var(--h3-font-size);
   margin-bottom: 0.5rem;
 }
 
 .about-card-description {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Regular, sans-serif;
   font-size: var(--smaller-font-size);
 }
 
 .about-title {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   text-align: initial;
   margin-bottom: 2rem;
 }
 
 .about-description {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Regular, sans-serif;
   color: var(--textColor);
   margin-bottom: 2rem;
 }
@@ -418,6 +419,12 @@ img {
   overflow: hidden;
   border: 1.5px solid var(--borderColor);
   border-radius: 1rem;
+  transition: all 0.4s ease;
+}
+
+.popular-card:hover {
+  border-color: #454545;
+  box-shadow: 0 0 15px #454545;
 }
 
 .popular-card .shape-smaller {
@@ -433,13 +440,13 @@ img {
 }
 
 .popular-title {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   font-size: var(--h2-font-size);
   margin-bottom: 0.25rem;
 }
 
 .popular-subtitle {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Light, sans-serif;
   font-size: var(--normal-font-size);
   color: var(--primaryColorAlt);
   font-weight: 400;
@@ -459,7 +466,7 @@ img {
 }
 
 .popular-data-group {
-  font-family: 'GeistMono-Thin', sans-serif;
+  font-family: Geist-Light, sans-serif;
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -472,7 +479,7 @@ img {
 }
 
 .popular-price {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   font-size: var(--h3-font-size);
 }
 
@@ -544,7 +551,7 @@ img {
 }
 
 .characteristics-card-1 {
-  top: -3rem;
+  top: -1rem;
   left: -3.5rem;
 }
 
@@ -554,13 +561,13 @@ img {
 }
 
 .characteristics-card-title {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   font-size: var(--h3-font-size);
   margin-bottom: 0.25rem;
 }
 
 .characteristics-card-description {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Regular, sans-serif;
   font-size: var(--smaller-font-size);
 }
 
@@ -588,7 +595,7 @@ img {
   color: var(--whiteColor);
   font-size: var(--normal-font-size);
   cursor: pointer;
-  transition: 0.4s;
+  transition: all 0.4s ease;
 }
 
 .featured-item img {
@@ -602,7 +609,7 @@ img {
 }
 
 .featured-item:hover {
-  background-color: var(--bodyColorAlt);
+  border-color: #454545;
 }
 
 .featured-item:hover span,
@@ -619,9 +626,11 @@ img {
 .featured-card {
   background-color: var(--bodyColor);
   position: relative;
-  padding: 2rem 1.5rem 1.5rem;
+  padding: 2rem 1.5rem 2.5rem;
   border: 1.5px solid var(--borderColor);
   border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .featured-card .shape-smaller {
@@ -637,26 +646,26 @@ img {
 }
 
 .featured-title {
-  font-family: 'GeistMono-SemiBold', sans-serif;
+  font-family: Geist-Bold, sans-serif;
   font-size: var(--h2-font-size);
   margin-bottom: 0.25rem;
 }
 
 .featured-subtitle {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Regular, sans-serif;
   font-size: var(--normal-font-size);
   color: var(--text-color);
   font-weight: 400;
 }
 
 .featured-img {
-  width: 180px;
+  width: 195px;
   margin: 1.5rem 0;
   transition: 0.4s;
 }
 
 .featured-price {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Regular, sans-serif;
   font-size: var(--h3-font-size);
 }
 
@@ -675,14 +684,18 @@ img {
   font-size: 1.25rem;
 }
 
+.featured-card:hover {
+  border-color: #454545;
+  box-shadow: 0 0 15px #454545;
+}
+
 .featured-card:hover .featured-img {
   transform: translateX(-0.25rem);
 }
 
 /* Activate Link Featured */
 .activate-featured {
-  background-color: var(--bodyColorAlt);
-  border: 1.5px solid var(--borderColor);
+  border-color: #454545;
 }
 
 .activate-featured span,
@@ -719,11 +732,12 @@ img {
 }
 
 .ofert-title {
+  font-family: Geist-Bold, sans-serif;
   margin-bottom: 2rem;
 }
 
 .ofert-description {
-  font-family: 'GeistMono-Regular', sans-serif;
+  font-family: Geist-Light, sans-serif;
   color: var(--textColor);
   margin-bottom: 3rem;
 }
@@ -823,7 +837,7 @@ img {
 }
 
 .footer-copy {
-  font-family: 'GeistMono-Regular';
+  font-family: Geist-Bold;
   color: var(--primaryColor);
   display: block;
   margin-top: 4.5rem;
@@ -832,7 +846,7 @@ img {
 }
 
 .footer-copy a {
-  font-family: 'GeistMono-Regular';
+  font-family: Geist-Bold;
   color: var(--primaryColor);
   text-decoration: none;
   cursor: pointer;
@@ -933,7 +947,7 @@ img {
     width: 145%;
   }
   .characteristics-card-1 {
-    top: -3.5rem;
+    top: -2.5rem;
     left: -6.5rem;
   }
   .characteristics-card-2 {
