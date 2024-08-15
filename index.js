@@ -34,12 +34,6 @@ const scrollHeader = () => {
 
 window.addEventListener('scroll', scrollHeader);
 
-// Star Button
-const startButton = document.getElementById('startButton');
-const sound = document.getElementById('sound');
-
-startButton.addEventListener('click', () => sound.play());
-
 // Popular Swiper
 let swiperPopular = new Swiper('.popular-container', {
   loop: true,

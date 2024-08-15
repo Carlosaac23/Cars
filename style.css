@@ -131,6 +131,10 @@ img {
   align-items: center;
 }
 
+.logo {
+  width: 40px;
+}
+
 .nav-logo,
 .nav-toggle {
   color: var(--titleColor);
@@ -143,10 +147,6 @@ img {
   column-gap: 0.25rem;
   font-weight: var(--font-medium);
   transition: 0.3s;
-}
-
-.nav-logo i {
-  font-size: 1.25rem;
 }
 
 .nav-logo:hover {
@@ -259,7 +259,7 @@ img {
 }
 
 .home-img {
-  width: 280px;
+  width: 350px;
   justify-self: center;
 }
 
@@ -298,29 +298,6 @@ img {
   align-items: center;
   font-size: 0.875rem;
   margin-bottom: 0.75rem;
-}
-
-.home-button {
-  font-family: Geist-Bold, sans-serif;
-  background: var(--bodyColor);
-  position: relative;
-  border: 1.5px solid var(--borderColor);
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-self: center;
-  font-size: var(--small-font-size);
-  color: var(--whiteColor);
-  font-weight: var(--font-medium);
-  transition: all 0.4s ease;
-}
-
-.home-button:hover {
-  border-color: #454545;
-  box-shadow: 0 0 15px #454545;
 }
 
 /* About Button */
@@ -503,7 +480,7 @@ img {
 }
 
 .popular-card:hover .popular-img {
-  transform: translateY(-0.25rem);
+  transform: translateX(-0.55rem);
 }
 
 /* Swiper Class */
@@ -791,9 +768,8 @@ img {
   transition: 0.4s;
 }
 
-.footer-logo i {
-  font-size: 1.5rem;
-  font-weight: 500;
+.footer-img {
+  width: 50px;
 }
 
 .footer-logo:hover {
@@ -854,7 +830,7 @@ img {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 0.6rem;
+  width: 0.5rem;
   background-color: var(--bodyColorAlt);
   border-radius: 1rem;
 }
@@ -901,6 +877,11 @@ img {
     margin-right: 1rem;
   }
 
+  .logo {
+    width: 35px;
+    margin-top: 10px;
+  }
+
   .home-car {
     column-gap: 2rem;
   }
@@ -936,8 +917,20 @@ img {
   }
 }
 
+@media screen and (max-width: 575px) {
+  .logo {
+    width: 35px;
+    margin-top: 10px;
+  }
+}
+
 /* Medium Devices */
 @media screen and (min-width: 576px) {
+  .logo {
+    width: 35px;
+    margin-top: 10px;
+  }
+
   .about-group {
     width: 350px;
     justify-self: center;
@@ -974,6 +967,7 @@ img {
   }
 }
 
+/* Medium Devices 2 */
 @media screen and (min-width: 767px) {
   .section {
     padding: 7rem 0 2 rem;
