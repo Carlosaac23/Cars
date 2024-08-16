@@ -64,7 +64,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--bodyColor);
+  background: var(--bodyColor);
   color: var(--primaryColor);
 }
 
@@ -91,8 +91,8 @@ img {
 
 .container {
   max-width: 1024px;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .grid {
@@ -389,10 +389,10 @@ img {
 
 .popular-card {
   position: relative;
-  width: 238px;
+  width: 240px;
   background-color: var(--bodyColor);
   padding: 2rem 1.5rem 1.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
   overflow: hidden;
   border: 1.5px solid var(--borderColor);
   border-radius: 1rem;
