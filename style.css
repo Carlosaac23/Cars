@@ -18,7 +18,7 @@
 
   --primaryColor: #f4f4f5;
   --primaryColorAlt: #d4d4d8;
-  --textColor: #71717a;
+  --textColor: #a5a5a5;
   --whiteColor: #fff;
   --bodyColor: #09090b;
   --bodyColorAlt: #18181b;
@@ -469,10 +469,11 @@ img {
   bottom: 0;
   border-radius: 1rem 0 0.895rem 0;
   cursor: pointer;
+  transition: border-color 0.4s ease;
 }
 
 .popular-button:hover {
-  background-color: var(--bodyColorAlt);
+  border-color: #454545;
 }
 
 .popular-button i {
