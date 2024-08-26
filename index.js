@@ -105,3 +105,32 @@ const scrollActive = () => {
 };
 
 window.addEventListener('scroll', scrollActive);
+
+// Scroll reveal
+ScrollReveal().reveal('.home-title, .home-subtitle, .home-gas, .home-img', {
+  easing: 'ease',
+  scale: 0.2,
+  delay: 800,
+  duration: 1200,
+  distance: '100px',
+  origin: 'top',
+});
+ScrollReveal().reveal('.home-car-icon, .home-car-number, .home-car-name', {
+  easing: 'ease',
+  scale: 0.2,
+  delay: 800,
+  duration: 1200,
+  distance: '100px',
+  origin: 'bottom',
+});
+ScrollReveal().reveal('.about-group', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'left' });
+ScrollReveal().reveal('.about-data', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'right' });
+ScrollReveal().reveal('#popular', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'bottom' });
+ScrollReveal().reveal('.characteristics-img', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', scale: 0 });
+ScrollReveal().reveal('.characteristics-card-1', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'left' });
+ScrollReveal().reveal('.characteristics-card-2', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'right' });
+ScrollReveal().reveal('#featured', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'bottom' });
+ScrollReveal().reveal('.ofert-data', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'left' });
+ScrollReveal().reveal('.ofert-img', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'right' });
+ScrollReveal().reveal('.logos-container', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'bottom' });
+ScrollReveal().reveal('.footer', { easing: 'ease', delay: 700, duration: 1200, distance: '100px', origin: 'top' });
